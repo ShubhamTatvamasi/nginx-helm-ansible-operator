@@ -1,0 +1,7 @@
+---
+# Use the 'create api' subcommand to add watches to this file.
+- version: v1
+  group: server.shubhamtatvamasi.com
+  kind: Nginx
+  playbook: playbooks/nginx.yml
+#+kubebuilder:scaffold:watch

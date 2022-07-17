@@ -1,0 +1,16 @@
+domain: shubhamtatvamasi.com
+layout:
+- ansible.sdk.operatorframework.io/v1
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
+projectName: nginx-helm-ansible-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: shubhamtatvamasi.com
+  group: server
+  kind: Nginx
+  version: v1
+version: "3"

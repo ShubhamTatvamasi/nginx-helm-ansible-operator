@@ -1,0 +1,9 @@
+---
+- name: Install Nginx
+  hosts: localhost
+  tasks:
+  - name: Install Nginx
+    kubernetes.core.helm:
+      name: nginx
+      chart_ref: bitnami/nginx
+      release_namespace: default

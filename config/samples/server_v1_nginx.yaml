@@ -1,0 +1,6 @@
+apiVersion: server.shubhamtatvamasi.com/v1
+kind: Nginx
+metadata:
+  name: nginx-sample
+spec:
+  # TODO(user): Add fields here
